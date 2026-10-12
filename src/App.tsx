@@ -11,25 +11,25 @@ const COLLECTIONS = [
   {
     name: 'Sovereign Chain',
     category: 'Necklaces',
-    price: '₹1,299',
+    price: '$1,299',
     img: 'https://images.pexels.com/photos/16069407/pexels-photo-16069407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   {
     name: 'Obsidian Arc',
     category: 'Earrings',
-    price: '₹849',
+    price: '$849',
     img: 'https://images.pexels.com/photos/39076755/pexels-photo-39076755.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   {
     name: 'Eternal Band',
     category: 'Bracelets',
-    price: '₹999',
+    price: '$999',
     img: 'https://images.pexels.com/photos/31459469/pexels-photo-31459469.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   {
     name: 'Serpent Hoop',
     category: 'Earrings',
-    price: '₹749',
+    price: '$749',
     img: 'https://images.pexels.com/photos/39076774/pexels-photo-39076774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 ];
@@ -346,7 +346,7 @@ export default function App() {
                 <p className="font-serif-display font-medium text-sm" style={{ color: 'var(--charcoal)' }}>
                   Serpent Hoop
                 </p>
-                <p className="text-xs mt-1" style={{ color: 'var(--gray-warm)' }}>316L Steel · ₹749</p>
+                <p className="text-xs mt-1" style={{ color: 'var(--gray-warm)' }}>316L Steel · $749</p>
                 <div className="flex mt-1">
                   {[1,2,3,4,5].map(i => (
                     <Star key={i} size={9} fill="var(--gold)" color="var(--gold)" />
